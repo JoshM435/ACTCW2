@@ -1,2 +1,2 @@
-# ACTCW2 - Machine Learning project involvling a dataset.
+# ACTCW2 - Machine Learning project involving a dataset.
 In This project I have chosen a kaggle dataset: Airbus Aircraft Detection. This dataset consists of top-down aerial photos of airports, where buildings, various vehicles, planes, etc are present. In this project i will attempt to use a traditional non-neural network method as well as a neural network method to analyse the photos in the dataset to determine planes present. 
