@@ -1,4 +1,4 @@
-# ACTCW2 - Machine Learning project involving a dataset.
+# ACT CW2 - Machine Learning project involving a dataset.
 All of these notebooks were made within Google Colab and function within its system, with the functionality of being able to create tutorial-style notebooks being my main reason for choosing Google colab when making this project.
 
 Python Dependencies;
