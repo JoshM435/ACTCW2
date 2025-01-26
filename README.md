@@ -1,4 +1,5 @@
 # ACT CW2 - Machine Learning project involving a dataset.
+# UP2066955
 All of these notebooks were made within Google Colab and function within its system, with the functionality of being able to create tutorial-style notebooks being my main reason for choosing Google colab when making this project.
 
 Python Dependencies;
@@ -23,3 +24,7 @@ Whilst also approaching a research problem 'Q3: How does data augmentation affec
 For Q1: traditional non-neural network method. I used an edge-detection/Contour-analysis approach to attempt to determine the planes present within the datasets images. This notebook can be ran in Google Colab, cell by cell. This method is very simple and the detection is based off edges detected after grayscaling an image and retaining the data points which correlate to white when shifting to a binary image. The detection is easily skewed from colour variety, shadows, clouds and white buildings.
 
 For Q2: Neural Network approach. I used a Faster R-CNN model which is used for feature detection, and in turn quite useful for this dataset of airport images. This notebook can be ran in Google Colab, with a recommendation for a GPU runtime to be selected, where the notebook can be fully ran from the start with Run All. My approach first had to filter the annotations file and extract the bounding boxes out of their form of 5 tuples into a set of 4 coordinates made up of x_min, y_min, x_max and y_max. A Dataset class would be set up, which would be used to train the model and plot a loss curve, after the training process i test the model on the training set, and then on the extra images provided with the dataset detailing images from both sets of images, with the extra image having predicted bounding boxes plotted on them based off the models training. After which i test for precision in comparison to the ground truth.
+
+For Q3: How does Data Augmentation affect Neural Networks? I chose this approach for my research question as data augmentation on images is visual and it is easy to see the outcome of the training process on the images. With my approach i made three functions which either flip or rotate the image, they are called within an augmentation pipeline class, where it is down to a random number generation whether or not which function gets used, allowing for variety within the augmented dataset. After executing this method it was shown that my data augmentation process negatively effected the training process of the model, despite this the model was able to identify the majority of planes within the dataset, as well as the planes present in the extra images folder within the dataset. 
+
+Despite this outcome, the upsides of Data Augmentation allow for variety in datasets, and expansion of smaller datasets.
