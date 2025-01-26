@@ -13,3 +13,12 @@ torch: 2.5.1+cu121
 torchvision: 0.20.1+cu121
 numpy: 1.26.4
 Pillow (PIL): 11.1.0
+Q3: 
+KaggleHub version: 0.3.6
+Pandas version: 2.2.2
+TensorFlow version: 2.17.1
+PyTorch version: 2.5.1+cu121
+Torchvision version: 0.20.1+cu121
+Matplotlib version: 3.10.0
+Pillow (PIL) version: 11.1.0
+Numpy version: 1.26.4
