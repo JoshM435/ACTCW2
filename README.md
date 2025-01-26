@@ -4,8 +4,10 @@ All of these notebooks were made within Google Colab and function within its sys
 Python Dependencies;
 
 Q1:Kagglehub, OpenCV, Matplotlib, NumPy. See Dependencies for versions.
-Random, os, ast, Do not have versions.
-Q2:
+Random, os, ast, Do not have versions in Colab.
+
+Q2:Kagglehub, pandas, tensorflow, matplotlib, torch, torchvision, NumPy, Pillow (PIL). See Dependencies for versions.
+Random, os, ast do not have versions in Colab.
 
 Q3:
 
