@@ -20,4 +20,5 @@ For Q1 my problem was to determine the planes present in the images within the k
 
 Whilst also approaching a research problem 'Q3: How does data augmentation affect the performance of a neural network?' alongside my Neural Network and exploring the applicability of my neural network to the problem at hand. It will consist of a tutorial style notebook, with Machine Learning as its central focus, with explanation of the code being used and the choices made when choosing these methods, specifically comparing the affects of data augmentation on the detection process, as well as the counting process.
 
-For Q1: traditional non-neural network method. I used an edge-detection/Contour-analysis approach to attempt to determine the planes present within the datasets images.
+For Q1: traditional non-neural network method. I used an edge-detection/Contour-analysis approach to attempt to determine the planes present within the datasets images. This notebook can be ran in Google Colab, cell by cell. This method is very simple and the detection is based off edges detected after grayscaling an image and retaining the data points which correlate to white when shifting to a binary image. The detection is easily skewed from colour variety, shadows, clouds and white buildings.
+
