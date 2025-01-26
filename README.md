@@ -15,6 +15,8 @@ Random, os, ast do not have versions in Colab.
 
 In This project I have chosen a kaggle dataset: Airbus Aircraft Detection. This dataset consists of top-down aerial photos of airports, where buildings, various vehicles, planes, etc are present. In this project i will attempt to use a traditional non-neural network method as well as a neural network method to analyse the photos in the dataset to determine planes present. 
 
+The Kaggle Dataset: Airbus Aircraft Detection allows for the testing of a multitude of detection software/methods, it is made up of High Resolution Satellite imagery. It's purpose is to train models to provide information about activity regarding any airport, with the size, number and type of aircraft not being limiting factors.
+
 For Q1 and Q2 the aim is make a tutorial style notebook, being aimed towards a Beginner-style audience, with the purpose of highlighting why certain choices were made when developing a solution to the problem. 
 
 For Q1 my problem was to determine the planes present in the images within the kagglehub dataset, with the goal to make the process of counting/identifying planes easier, whilst also making it uneccessary for a human to do the workload of filtering through images and counting the planes one by one. With the overarching aim of using a traditional method and trying to attain a high accuracy of counts.
