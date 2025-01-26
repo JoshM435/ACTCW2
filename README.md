@@ -6,10 +6,11 @@ Python Dependencies;
 Q1:Kagglehub, OpenCV, Matplotlib, NumPy. See Dependencies for versions.
 Random, os, ast, Do not have versions in Colab.
 
-Q2:Kagglehub, pandas, tensorflow, matplotlib, torch, torchvision, NumPy, Pillow (PIL). See Dependencies for versions.
+Q2:Kagglehub, pandas, TensorFlow, Matplotlib, Torch, Torchvision, NumPy, Pillow (PIL). See Dependencies for versions.
 Random, os, ast do not have versions in Colab.
 
-Q3:
+Q3:Kagglehib, pandas, TensorFlow, PyTorch, Torchvision, Matplotlib, Pillow (PIL), NumPy. See Dependencies for versions. 
+Random, os, ast do not have versions in Colab.
 
 In This project I have chosen a kaggle dataset: Airbus Aircraft Detection. This dataset consists of top-down aerial photos of airports, where buildings, various vehicles, planes, etc are present. In this project i will attempt to use a traditional non-neural network method as well as a neural network method to analyse the photos in the dataset to determine planes present. 
 
